@@ -23,7 +23,7 @@ h1 {
     background: #D8CF0D;
     border-radius: 5px;
     padding: 4px;
-    margin: 0 160px ;
+    margin: 0 auto ;
     font-size: xx-large;
     font-style: normal;
     font-weight: 800;
@@ -36,7 +36,7 @@ h1 {
 	border: 2px solid #D8CF0D;
 	border-radius: 5px;
 	padding: 4px;
-	margin: 0 150px;
+	margin: 0 auto;
 	font-size: xx-large;
     font-style: normal;
     font-weight: 800;
@@ -56,10 +56,9 @@ h1 {
 	color: white;
     max-width: 600px;
     text-align: center;
-    display: block;
+    display: inline;
     float: right;
 	margin: 55px 50px ;
-
 	border-left: medium solid #D8CF0D;
 	border-right: medium solid #D8CF0D;
 }
