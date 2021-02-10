@@ -16,13 +16,14 @@ h1 {
     font-weight: normal;
 	border-bottom: medium solid white;
 }
+
 .link a {
     font-family: 'wire-one';
     color: white;
     background: #D8CF0D;
     border-radius: 5px;
     padding: 4px;
-    margin: 0 150px ;
+    margin: 0 160px ;
     font-size: xx-large;
     font-style: normal;
     font-weight: 800;
@@ -41,6 +42,28 @@ h1 {
     font-weight: 800;
 }
 
+#profile-pic {
+	max-height: 380px;
+	border-radius: 50%;
+	border-right: thick solid white;
+	border-bottom: thick solid white;
+}
+
+.quote {
+    font-family: "wire-one";
+	font-size: 36px;
+	font-style: italic;
+	color: white;
+    max-width: 600px;
+    text-align: center;
+    display: block;
+    float: right;
+	margin-top: 55px;
+	margin-right: 50px;
+	border-left: medium solid #D8CF0D;
+	border-right: medium solid #D8CF0D;
+}
+
 P {
     font-family: 'wire-one';
     margin: 30px 20px;
@@ -56,23 +79,5 @@ P {
     background-color: #D8CF0D;	
 }
 
-#profile-pic {
-	max-height: 380px;
-	border-radius: 50%;
-	border-right: thick solid white;
-	border-bottom: thick solid white;
-}
 
-.quote {
-    font-family: "wire-one";
-	font-size: 36px;
-	color: white;
-    max-width: 600px;
-    text-align: center;
-    display: block;
-    float: right;
-	margin-top: 55px;
-	margin-right: 50px;
-	border-left: medium solid #D8CF0D;
-	border-right: medium solid #D8CF0D;
-}
+
