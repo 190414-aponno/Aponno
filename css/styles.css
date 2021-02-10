@@ -1,34 +1,44 @@
 @charset "utf-8";
 body {
-    background-color: white;
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,1.00) 0%,rgba(65,78,113,1.00) 41.66%,rgba(4,21,67,1.00) 100%);
+    background-image: -moz-linear-gradient(45deg,rgba(255,255,255,1.00) 0%,rgba(65,78,113,1.00) 41.66%,rgba(4,21,67,1.00) 100%);
+    background-image: -o-linear-gradient(45deg,rgba(255,255,255,1.00) 0%,rgba(65,78,113,1.00) 41.66%,rgba(4,21,67,1.00) 100%);
+    background-image: linear-gradient(45deg,rgba(255,255,255,1.00) 0%,rgba(65,78,113,1.00) 41.66%,rgba(4,21,67,1.00) 100%)
 }
 
 h1 {
-    font-family: fantasy;
+    font-family: "wire-one";
     text-transform: uppercase;
     text-align: center;
     font-size: 120px;
-    color: midnightblue;
+    color: white;
     font-style: oblique;
     font-weight: normal;
+	border-bottom: medium solid white;
 }
 .link a {
-    font-family: fantasy;
-	color: white;
-	background: midnightblue;
-	border-radius: 5px;
-	padding: 4px;
-	margin: 5px;
+    font-family: 'wire-one';
+    color: white;
+    background: #D8CF0D;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 0 150px ;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 800;
 	}
 
 .link a:hover {
-	font-family: fantasy;
-	color: midnightblue;
+	font-family: 'wire-one';
+	color: #D8CF0D;
 	background: white;
-	border: 1px solid midnightblue;
+	border: 2px solid #D8CF0D;
 	border-radius: 5px;
 	padding: 4px;
-	margin: 5px;
+	margin: 0 150px;
+	font-size: xx-large;
+    font-style: normal;
+    font-weight: 800;
 }
 
 P {
@@ -38,4 +48,31 @@ P {
     font-weight: bold;
     font-style: normal;
     font-size: x-large;
+    color: black;
+    border-bottom: medium solid white;
+	border-right: thick solid white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #D8CF0D;	
+}
+
+#profile-pic {
+	max-height: 380px;
+	border-radius: 50%;
+	border-right: thick solid white;
+	border-bottom: thick solid white;
+}
+
+.quote {
+    font-family: "wire-one";
+	font-size: 36px;
+	color: white;
+    max-width: 600px;
+    text-align: center;
+    display: block;
+    float: right;
+	margin-top: 55px;
+	margin-right: 50px;
+	border-left: medium solid #D8CF0D;
+	border-right: medium solid #D8CF0D;
 }
