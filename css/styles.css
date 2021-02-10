@@ -1,0 +1,41 @@
+@charset "utf-8";
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: fantasy;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 120px;
+    color: midnightblue;
+    font-style: oblique;
+    font-weight: normal;
+}
+.link a {
+    font-family: fantasy;
+	color: white;
+	background: midnightblue;
+	border-radius: 5px;
+	padding: 4px;
+	margin: 5px;
+	}
+
+.link a:hover {
+	font-family: fantasy;
+	color: midnightblue;
+	background: white;
+	border: 1px solid midnightblue;
+	border-radius: 5px;
+	padding: 4px;
+	margin: 5px;
+}
+
+P {
+    font-family: 'wire-one';
+    margin: 30px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-size: x-large;
+}
