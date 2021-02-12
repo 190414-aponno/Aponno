@@ -23,10 +23,11 @@ h1 {
     background: #D8CF0D;
     border-radius: 5px;
     padding: 4px;
-    margin: 10px 165px;
+    margin: 10px 30px;
     font-size: xx-large;
     font-style: normal;
     font-weight: 800;
+	display: inline-block;
 	}
 
 .link a:hover {
@@ -36,10 +37,11 @@ h1 {
 	border: 2px solid #D8CF0D;
 	border-radius: 5px;
 	padding: 4px;
-	margin: 10px 165px;
+	margin: 10px 30px;
 	font-size: xx-large;
     font-style: normal;
     font-weight: 800;
+	display: inline-block;
 }
 
 #profile-pic {
@@ -80,5 +82,7 @@ P {
 	margin: 10px;
 }
 
-
+nav {
+	text-align: center;
+}
 
